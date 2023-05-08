@@ -9,8 +9,5 @@
 .listing-picker-box{
     height: fit-content;
     width: fit-content;
-    padding: 2%;
-    margin: 2%;
-    border: 1px solid gray;
     border-radius: 5px;
 }

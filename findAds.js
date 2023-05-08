@@ -23,3 +23,11 @@ bottomAds.forEach((ad) =>{
 
 resultDisplayElement.appendChild(bottomElement);
 targetElement.insertAdjacentElement('afterend', resultDisplayElement);
+
+// // 画面下部にある次ページへのナビゲーションロゴを移動させる
+// // ナビゲーションロゴを取得
+const navigationElement = document.querySelectorAll('div[role="navigation"]');
+console.log(navigationElement)
+
+// // navigationElementをresultDisplayElement直後に移動
+resultDisplayElement.insertAdjacentElement('afterend', navigationElement[1]);
